@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RememberOurStory</string>
+    <string name="title_activity_heros_item_list">title_activity_heros_item_list</string>
+    <string name="createacount">Create Acount</string>
+    <string name="firstname">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordVerification">Password Verification</string>
+    <string name="phone">Phone</string>
+    <string name="about">About</string>
+    <string name="login">Login</string>
+    <string name="createvolunteerheadline">createVolunteerHeadline</string>
+    <string name="volunteername">Volunteer Name</string>
+    <string name="placedescription">placeDescription</string>
+    <string name="tododescription">todoDescription</string>
+    <string name="choosedate">choose Date</string>
+    <string name="pick_time">pick time</string>
+    <string name="reply_title">reply_title</string>
+    <string name="happy_to_see_you_again">happy_to_see_you_again</string>
+    <string name="more">עוד</string>
+    <string name="stories">stories</string>
+    <string name="time_headline">time_headline</string>
+    <string name="time_text">time_text</string>
+    <string name="location_headline">location_headline</string>
+    <string name="location_text">location_text</string>
+    <string name="media_camera">media camera</string>
+    <string name="notificationHeadline">notification_headline</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:context=".ItemListActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:visibility="invisible">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <View
+        android:id="@+id/Sfilters"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+
+        android:id="@+id/barText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="בחר גיבור"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_anchor="@+id/Sfilters"
+        android:fontFamily="@font/rubik_bold"
+        android:textColor="@color/black"
+        app:layout_anchorGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/Sfilters"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include
+            layout="@layout/temp_item_list_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp" />
+
+        <include
+            layout="@layout/temp_item_list_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="24dp" />
+
+        <include
+            layout="@layout/temp_item_list_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="24dp" />
+
+        <include
+            layout="@layout/temp_item_list_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="30dp" />
+
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/returBtn"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/top_back_arrow_blue" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
